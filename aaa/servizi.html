@@ -3,7 +3,6 @@
         <title> TITOLO </title>
         <link href="style1.css" rel="stylesheet" type="text/css">
         <style>
-            
             .tit{
                 text-align:center;
                 font-size:40px;
@@ -18,37 +17,81 @@
                 background: white;
                 margin: 0 auto;
             }
-            th{
-                font-size:30px;
+            .servizi{
+                margin-left:30px;
+                float:left;
+                width: 300px;
+                height:300px;
+                background-image:url("ser1.jpg");
+                background-size:cover;
             }
-            td{
-                text-align:center;
+            #foto2{
+                background-image: url("ser3.jpg");
+            }
+            #foto3{
+                background-image: url("ser4.jpg");
+            }
+            #ok{
+                margin-left:10%;
+            }
+            h3{
                 font-size:20px;
+                margin-top:90%;
+                margin-left:25%;
+            }
+            #c{
+                margin-left:15%;
+            }
+            #ok1{
+                margin-left:10%;
+                margin-top:25%;
+            }
+            #foto4{
+                background-image:url("ser2.jpg");
+            }
+            #foto5{
+                background-image:url("ser5.jpg");
+                background-size:cover;
+            }
+            #d{
+                margin-left:12%;
+            }
+            #foto6{
+                background-image:url("ser6.jpg");
+                opacity: 1.0;
+                filter: alpha(opacity=40);
+            }
+            #foto6:hover{
+                opacity: 0.4;
+                filter: alpha(opacity=100);
             }
         </style>
     </head>
     <body>
         <div id="titolo">
-        <p class="tit"><a href="C:\Users\Luca\Desktop\ok\aaa\hotel.html"><b>GRAND GARDA HOTEL</b></a></p>
+        <p class="tit"><a href="hotel.html"><b>GRAND GARDA HOTEL</b></a></p>
         </div>
-        <table align="center" border="1" cellpadding="10">
-            <th colspan="2">I NOSTRI SERVIZI</th>
-            <tr>
-                <td>WI-FI AD ALTA VELOCITÀ</td>
-                <td><img src="ser1.jpg" width="150"></td>
-            </tr>
-            <tr>
-                <td>ACCESSO PER I CANI</td>
-                <td><img src="ser2.jpg" width="200"></td>
-            </tr>
-            <tr>
-                <td>RECEPTION APERTA 24/7</td>
-                <td><img src="ser3.png" width="300"></td>
-            </tr>
-            <tr>
-                <td>PORTIERE NOTTURNO</td>
-                <td><img src="ser4.jpg" width="300"></td>
-            </tr>
-        </table>
+        <div id="ok">
+        <div class="servizi">
+        <h3>WI-FI VELOCE</h3>
+        </div>
+        <div class="servizi" id="foto2">
+        <h3 id="c">RECEPTION APERTA 24/7</h3>
+        </div>
+        <div class="servizi" id="foto3">
+        <h3 id="c">PORTINAIO NOTTURNO</h3>
+        </div>
+        </div>
+        <div id="ok1">
+            <div class="servizi" id="foto6">
+                <h3><a href="guida.html">GUIDA TURISTICA</a></h3>
+                </div>
+                <div class="servizi" id="foto4">
+                <h3 id="c">SERVIZIO NAVETTA</h3>
+                </div>
+                <div class="servizi" id="foto5">
+                <h3 id="d">BICICLETTE ELETTRICHE</h3>
+                </div>
+        </div>
     </body>
 </html>
